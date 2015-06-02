@@ -1,7 +1,7 @@
 # Description:
 #  Display log for hubot
 # Configuration:
-# LOG_Doo
+# LOG_DIR:  directory that contains the hubot output
 # Commands:
 #
 #   hubot show log <n> - Print hubot logs <n> last lines of hubot.log, default 100 lines

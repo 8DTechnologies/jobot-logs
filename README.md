@@ -8,20 +8,27 @@
 ```sh
 $ npm install --save jobot-logs
 ```
+* add jobot-logs to the file external-scripts.json
 
-
-## Usage
-
-```js
-var jobotLogs = require('jobot-logs');
-
-jobotLogs('Rainbow');
+```json
+["jobot-logs"]
 ```
 
+## Usage
+This package assumes hubot output is logged to a file  #{hubot.name}.log in a directory LOG_DIR
+```
+>> hubot show log 
+```
 
+* hubot show log
+* hubot log size
+* hubot show old log (date) at (time)
+* hubot log size
+
+[scripts/logs.coffee](/blob/master/scripts/logs.coffee) for details
 ## License
 
-MIT © [Samuel Boucher]()
+MIT © [8D Technologies](https://github.com/8DTechnologies)
 
 
 [npm-image]: https://badge.fury.io/js/jobot-logs.svg

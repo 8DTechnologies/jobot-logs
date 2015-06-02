@@ -6,11 +6,11 @@
     "name": "Samuel Boucher",
     "email": ""
   },
-  "repository": "scboucher/jobot-logs",
+  "repository": "https://github.com/8DTechnologies/jobot-logs",
   "license": "MIT",
   "main":
     "index.coffee",
-  
+
   "keywords": [
     "jobot-logs",
     "hubot",
