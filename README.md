@@ -25,7 +25,7 @@ This package assumes hubot output is logged to a file  #{hubot.name}.log in a di
 * hubot show old log (date) at (time)
 * hubot log size
 
-[scripts/logs.coffee](/blob/master/scripts/logs.coffee) for details
+[scripts/logs.coffee](/scripts/logs.coffee) for details
 ## License
 
 MIT © [8D Technologies](https://github.com/8DTechnologies)
